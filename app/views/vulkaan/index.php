@@ -12,7 +12,6 @@
     
     <table>
         <thead>
-            <th>Id</th>
             <th>Naam Vulkaan</th>
             <th>Hoogte (m)</th>
             <th>Land</th>
