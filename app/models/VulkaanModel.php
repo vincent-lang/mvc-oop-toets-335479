@@ -17,7 +17,7 @@ class VulkaanModel
                        ,Land
                        ,JaarLaatsteUitbarsting
                        ,AantalSlachtoffers
-                FROM   Vulkaan";
+                FROM   Vulkaan ORDER BY Id DESC";
 
         $this->db->query($sql);
         return $this->db->resultSet();
