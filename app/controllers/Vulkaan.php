@@ -20,15 +20,15 @@ class Vulkaan extends BaseController
             $rows .= "<tr>
                         <td>$result->Id</td>
                         <td>$result->Naam</td>
-                        <td>$result->Club</td>
-                        <td>$result->Leeftijd</td>
-                        <td>$result->Nationaliteit</td>
-                        <td>$result->Salaris</td>
+                        <td>$result->Hoogte</td>
+                        <td>$result->Land</td>
+                        <td>$result->JaarLaatsteUitbarsting</td>
+                        <td>$result->AantalSlachtoffers</td>
                     </tr>";
         }
 
         $data = [
-            'title' => 'Top 5 best betaalde voetballers ter wereld',
+            'title' => 'Top 5 actiefste vulkanen ter wereld',
             'records' => 'info uit de database',
             'rows' => $rows
         ];
