@@ -1,6 +1,6 @@
 <?php
 
-class VoetbalModel
+class VulkaanModel
 {
     private $db;
 
@@ -9,7 +9,7 @@ class VoetbalModel
         $this->db = new Database();    
     }
 
-    public function getvoetballers()
+    public function getVulkaans()
     {
         $sql = "SELECT Id
                        ,Naam
