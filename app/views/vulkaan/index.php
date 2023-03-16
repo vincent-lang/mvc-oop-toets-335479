@@ -13,11 +13,11 @@
     <table>
         <thead>
             <th>Id</th>
-            <th>Naam</th>
-            <th>Club</th>
-            <th>Leeftijd</th>
-            <th>Nationaliteit</th>
-            <th>Salaris (miljoen)</th>
+            <th>Naam Vulkaan</th>
+            <th>Hoogte (m)</th>
+            <th>Land</th>
+            <th>Laatste Uitbarsting</th>
+            <th>Aantal Slachtoffers</th>
         </thead>
         <tbody>
             <?= $data['rows'];  ?>
